@@ -1,0 +1,23 @@
+.additional__hover-btn {
+  background: #f0ab00;
+  border-radius: 10px;
+  border: none;
+  outline: none !important;
+  padding: 11px 35px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  position: relative;
+}
+.additional__hover-btn::after {
+  content: "";
+  position: absolute;
+  background: url(https://cdn.coral.ru/content/cms/russia/pressa/btn-arrow.png) no-repeat;
+  background-size: contain;
+  width: 9px;
+  height: 18px;
+  right: 12px;
+}

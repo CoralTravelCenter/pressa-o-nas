@@ -1,0 +1,26 @@
+.post__quote__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+}
+.post__quote__text p {
+  padding: 0 0 0 30px;
+  border-left: 2px solid #f0ab00;
+}
+@media screen and (max-width: 768px) {
+  .post__quote__text p {
+    padding: 0 0 0 10px;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .post__quote__text {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post__quote__text {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,14 @@
+.post__quote__header {
+  display: flex;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  margin: 0 0 24px 0;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .post__quote__header {
+    margin: 0 0 12px 0;
+    -moz-column-gap: 6px;
+         column-gap: 6px;
+  }
+}

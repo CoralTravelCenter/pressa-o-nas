@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Testing components</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="wrapper__two-columns">
+				<section class="post">
+					<div class="post__data-block">
+						<!-- Дата выпуска статьи текст + атрибут datatime (формат ГГГГ-ММ-ДД) -->
+						<span class="post__date" datetime="2022-08-09">09.08.2022</span>
+						<!-- Источник информации для статьи -->
+						<span class="post__source">Tourdom.ru</span>
+					</div>
+					<!-- Заголовок статьи -->
+					<h1 class="post__title">В каких популярных отелях на российских курортах еще остались места на август?</h1>
+					<h2 style="font-weight: normal" class="post__title post__title_h2">Туроператор Coral Travel рекомендует</h2>
+					<div class="post__text">
+						<p><em> Задачка со звездочкой* </em></p>
+						<p>
+							<em>Дано:</em> На календаре август, и есть идея срочно уехать в отпуск.<br /><em>Вопрос:</em> Куда? Реально ли сейчас найти номер в качественном отеле на российском курорте?<br /><em>У туроператора <strong>Coral Travel</strong> есть ответ.</em> Он заранее выкупает квоты номеров в популярных гостиницах, чтобы подтверждать заявки клиентов даже в пик сезона.<br />Читайте. Бронируйте.
+						</p>
+						<h2 class="post__title post__title_h2">Сочи. Море и горы</h2>
+						<p>Ключевое направление российского рынка – это, конечно же, Сочи. Тем более что у курорта появилось дополнительное конкурентное преимущество: сюда можно добраться самолетом из любого региона страны.</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_1.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>Популярные отели в Сочи и окрестностях уже активно продаются на бархатный сезон, но через Coral Travel доступны места и на август. В этом году, предвидя шквальный спрос, туроператор увеличил объем коммитментов (заранее оплаченных номеров). Расширился и ассортимент партнерских гостиниц.</p>
+						<p>
+							Среди семейных туристов особым спросом пользуются «Бархатные сезоны», где Coral Travel внедрил свою авторскую концепцию анимации<a href="https://www.coral.ru/sunfamilyclub/" target="_blank" rel="noopener"> Sun Family Club</a> – дети развлекаются и развиваются, родители отдыхают. Этот формат хорошо известен клиентам, которые ездили с Coral в Турцию, Египет и другие зарубежные страны, теперь он приобретает популярность и
+							в России (о чем еще пойдет речь в контексте Анапы и Геленджика).
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_2.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>
+							Возвращаясь к нашему главному пляжному курорту. В Большом Сочи туроператор особенно рекомендует для отдыха в августе: <a href="https://www.coral.ru/hotels/russia/alaya-roza-gostinitsa-sochi/" target="_blank" rel="noopener">«Алая Роза отель 2*»</a>, <a href="https://www.coral.ru/hotels/russia/hotel-sochi-breez-spa-hotel-sochi/" target="_blank" rel="noopener">«Сочи-Бриз СПА-отель 3*»</a>, <a
+								href="https://www.coral.ru/hotels/russia/hotel-prometey-club-sochi/"
+								target="_blank"
+								rel="noopener"
+								>Отель &amp; СПА «Прометей клуб 4*»</a
+							>, <a href="https://www.coral.ru/hotels/russia/swissotel-sochi-sochi/" target="_blank" rel="noopener">«Свиссотель Резорт Сочи Камелия 5*»</a>.
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_3.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>В Имеретинской бухте: <a href="https://www.coral.ru/hotels/russia/barhatnye-sezony-sochi/" target="_blank" rel="noopener">«Бархатные сезоны 3*»</a>, <a href="https://www.coral.ru/hotels/russia/jemchug-village-sochi/" target="_blank" rel="noopener">«Жемчуг Village 3*»</a>, <a href="https://www.coral.ru/hotels/russia/hotel-complex-bridge-resort-sochi/" target="_blank" rel="noopener">СКК «Бридж Резорт 4*»</a>.</p>
+						<p>
+							Не морем единым привлекает туристов летний Сочи. Многие едут в горы, на курорты «Роза Хутор», ГТЦ «Газпром», «Красная Поляна» (бывший «Горки Город»), где отели высокого уровня доступны в это время по самым приятным ценам. Целебный воздух, прогулки по горным тропам, катание на канатных дорогах, головокружительные виды со смотровых площадок… И, конечно же, гастрономические впечатления в местных ресторанах, среди которых
+							есть как демократичные, так и самые статусные.
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_4.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>
+							Для клиентов, которые настроены всерьез заняться своим здоровьем (а таких становится все больше), идеально подойдет горный санаторий <a href="https://www.coral.ru/hotels/russia/sanatorium-roza-springs-sochi/" target="_blank" rel="noopener">Rosa Springs 5*</a>. Сюда направляют на отдых и восстановление именитых российских спортсменов. Здесь есть свой источник лечебной минеральной воды. Термальные комплексы, тренажерные
+							залы, лечебная база, где гости проходят процедуры по назначению врачей… плюс общий релакс на фоне горных пейзажей. А при желании легко спуститься с высоты к морю – большинство отелей организует регулярные шаттлы в Имеретинскую бухту.
+						</p>
+					</div>
+					<h2 class="post__title post__title_h2">Анапа и Геленджик. Право на отдых</h2>
+					<div class="post__text">
+						<p>
+							Летний сезон 2022 года подтвердил, что народная любовь к этим курортам способна преодолевать преграды и расстояния. Даже при отсутствии авиаперевозки отели в августе работают с хорошей загрузкой. Хорошо, что Coral Travel не стал сокращать квоты номеров в местных гостиницах. Напротив, туроператор даже расширил количество партнерских отелей, в его ассортименте появились новые названия:<a
+								href="https://www.coral.ru/hotels/russia/hotel-acropolis-anapa/"
+								target="_blank"
+								rel="noopener"
+								> «Акрополис 2*», </a
+							><a href="https://www.coral.ru/hotels/russia/hotel-alfa-summer-anapa/" target="_blank" rel="noopener">«Альфа Саммер 3*»</a>,<a href="https://www.coral.ru/hotels/russia/hotel-rovados-anapa/" target="_blank" rel="noopener"> «Ровадос 3*»</a>,<a href="https://www.coral.ru/hotels/russia/pontos-family-resort-vesta-anapa/" target="_blank" rel="noopener"> Pontos Vesta 3*</a>,<a
+								href="https://www.coral.ru/hotels/russia/pontos-family-resort-hotel-anapa/"
+								target="_blank"
+								rel="noopener"
+								> Pontos Hotel 4*</a
+							>,<a href="https://www.coral.ru/hotels/russia/hotel-allura-anapa/"> «Аллура 4*»</a> в Анапе. Всё это объекты с выверенным соотношением цены и качества, обеспечивающие достойный уровень сервиса в своих категориях.
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_5.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<p>
+						Теперь о бестселлерах. Клиентам с детьми Coral Travel традиционно рекомендует отели, где действует та самая концепция Sun Family Club. Развлечения, развивающие занятия, безопасная среда, специальное питание, разработанное (представьте!) в соответствии с рекомендациями РАМН для дошкольных учреждений и с учетом вкусов детей… Всё устроено так, чтобы маленькие гости отдыхали в компании сверстников, а родители проводили время
+						на свое усмотрение – веселились вместе с ребятами или занимались собой.
+					</p>
+					<div class="post__text">
+						<p>
+							Базовые отели с концепцией Sun Family Club в Анапе: <a href="https://www.coral.ru/hotels/russia/hotel-miraclen-anapa/" target="_blank" rel="noopener">отель «Миракле 3*»</a> , <a href="https://www.coral.ru/hotels/russia/pansionat-ugra-ex-kassandra-anapa/" target="_blank" rel="noopener">пансионат «Югра 2*»</a> , <a href="https://www.coral.ru/hotels/russia/guest-house-hutorok-anapa/" target="_blank" rel="noopener"
+								>ГК «Хуторок 3*»</a
+							>. Sun Family Club в Геленджике: <a href="https://www.coral.ru/hotels/russia/zao-pansionat-kabardinka-gelendgik/" target="_blank" rel="noopener">пансионат «Кабардинка 3*»</a>, <a href="https://www.coral.ru/hotels/russia/pansionat-kuban-gelendzhik-gelendgik/" target="_blank" rel="noopener">пансионат «Кубань 3*»</a>.
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_6.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>
+							С учетом событий последних лет приобретает дополнительную актуальность санаторно-курортный потенциал Анапы и Геленджика. Черноморский климат и фитонциды местной флоры оказывают благотворное воздействие на бронхолегочную систему и содействуют общему оздоровлению отдыхающих. А в санаториях развиваются традиционные методики лечения и внедряются новые. Например, вы знали о том, что в Анапе созданы специальные пляжи, где
+							туристы лечатся песком? Благо, этот ресурс на курорте в изобилии.
+						</p>
+						<p>
+							В ассортименте Coral Travel обратите внимание на санатории:  <a href="https://www.coral.ru/hotels/russia/sanatorii-rus-anapa/" target="_blank" rel="noopener">«Русь 2*»</a>,<a href="https://www.coral.ru/hotels/russia/sanatorium-malaya-buhta-anapa/" target="_blank" rel="noopener"> «Малая Бухта 3*»</a>,<a href="https://www.coral.ru/hotels/russia/sanatorii-dilych-anapa/" target="_blank" rel="noopener"> «Дилуч 3*»</a>,<a
+								href="https://www.coral.ru/hotels/russia/sanatorium-ryabinushka-anapa/"
+								target="_blank"
+								rel="noopener"
+								> «Рябинушка 3*»</a
+							>,<a href="https://www.coral.ru/hotels/russia/sanatorium-brigantina-anapa/" target="_blank" rel="noopener"> «Бригантина 3*»,</a><a href="https://www.coral.ru/hotels/russia/sanatorium-rodnik-anapa/"> «Родник 3*»</a>. В Анапе и Геленджике:<a href="https://www.coral.ru/hotels/russia/sanatorium-krasnaya-talka-gelendgik/" target="_blank" rel="noopener"> «Красная Талка 4*»</a>,<a
+								href="https://www.coral.ru/hotels/russia/zhemchuzhina-morya-gelendgik/"
+								target="_blank"
+								rel="noopener"
+								> «Жемчужина моря 3*»,</a
+							> <a href="https://www.coral.ru/hotels/russia/sanatorium-solnechnyi-rzhd-gelendgik/" target="_blank" rel="noopener"> «Солнечный РЖД 3*»</a>.
+						</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_7.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>Что же касается транспорта, то для тех клиентов, которые приезжают по железной дороге, Coral Travel в этом сезоне предлагает специальный сервис – автомобильный трансфер от любой станции до отеля. Хоть из Тоннельной до Пионерского проспекта, хоть из Краснодара до Туапсе. Потому что даже в отсутствие авиаперевозки права на отдых никто не отменял.</p>
+					</div>
+					<h2 class="post__title post__title_h2">Кавказские Минеральные Воды. Новый уровень</h2>
+					<div class="post__text">
+						<p>Продолжая оздоровительную тематику, просто необходимо уделить особое внимание курортам Кавказских Минеральных Вод. Спрос на отдых в этом регионе увеличивается по экспоненте. И не только потому, что сюда летают самолеты (хотя транспортный фактор играет роль). Дело еще и в растущем уровне качества санаторно-курортной базы, которая преобразилась буквально на глазах.</p>
+					</div>
+					<!-- Внутренняя картинка статьи -->
+					<div class="post__image">
+						<!-- ссылка на картинку (+ обязателен релевантный alt) -->
+						<img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_8.jpg" alt="" />
+						<!-- подпись под картинкой -->
+						<p>Фото: сайт Tourdom.ru</p>
+					</div>
+					<div class="post__text">
+						<p>
+							Яркой иллюстрацией и визитной карточкой традиций курортного региона может служить, например, санаторий <a href="https://www.coral.ru/hotels/russia/glavnye-narzannye-vanny-kislovodsk-mineralnye-vodi/" target="_blank" rel="noopener">«Главные нарзанные ванны 5*»</a> – крупный оздоровительный комплекс, расположенный в самом центре Кисловодска, на Курортном бульваре. А если хотите получить представление об инновациях,
+							присмотритесь к санаторию<a href="https://www.coral.ru/hotels/russia/medispa-hotel-mayrveda-kislovodsk-mineralnye-vodi/" target="_blank" rel="noopener"> «Майерведа Меди СПА-отель 5*»</a>, который недавно открылся в Кисловодске. Здесь гостям предлагают оздоровительные программы по аюрведическим канонам – то, за чем многие наши соотечественники стремятся в Индию.
+						</p>
+						<p>Продажи путевок на курорты Кавказских Минеральных Вод бьют рекорды по глубине, в начале августа уже активно поступали заявки на сентябрь и даже октябрь. Но у Coral Travel еще доступны для бронирования места и на август.</p>
+					</div>
+					<!-- \/ слайдер с картинками \/ -->
+					<!-- подключение стилей слайдера обязательно! -->
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+					<div class="post__slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_1.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_2.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_3.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_4.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_5.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_6.jpg" alt="" /></div>
+							<div class="swiper-slide"><img src="https://cdn.coral.ru/content/press/press_popular_hotel_russia_august_slider_7.jpg" alt="" /></div>
+						</div>
+						<div class="swiper-pagination"> </div>
+					</div>
+					<!-- скрипты инициализации слайдера обязательны! -->
+					<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+					<script>
+						const swiper = new Swiper(".post__slider", {
+							direction: "horizontal",
+							loop: true,
+							grabCursor: true,
+							spaceBetween: 20,
+							autoplay: { delay: 5e3 },
+							pagination: { enabled: true, clickable: true, el: ".swiper-pagination" },
+						});
+					</script>
+					<!-- /\ слайдер с картинками /\ -->
+					<!-- кнопка с переходом куда-то после статьи -->
+					<div class="post__cta">
+						<a
+							href="https://www.coral.ru/packagetours/moskva-to-rossiya-tours/?q=%7b%22Bgn%22%3a%2221.12.2022%22%2c%22End%22%3a%2221.12.2022%22%2c%22Dr%22%3a%220%22%2c%22Acc%22%3a%227%2c10%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%223JMWXdLLf%2fMZuZ7%2foN3MIEIWDiCd7RxN6iz%2blFI6gCDSYBqufqTuOY7rYC2UnmTe2uThhAFqW%2fr26IaP%2fmfKAfOGCyfeo5J7GuR4QyBvut9Sv4KI3PipFUL9qcRTsUQWK066KK7yaFSLDk4eFfWiSQ%3d%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3afalse%2c%22Rglr%22%3atrue%2c%22Srt%22%3a1%7d&amp;f={%22Rh%22:false,%22Ao%22:[%22available%22]}&amp;page=1"
+							class="post__button"
+							>Купить тур по России</a
+						>
+					</div>
+				</section>
+				<section class="additional">
+					<span class="additional__title">Другие статьи</span>
+					<div class="additional__cards">
+						<a href="https://www.coral.ru/main/coral/press/malydivy-v-trende-podborka-novyh-oteley-na-ostrovah/" class="additional__card">
+							<div class="additional__img-wrapper">
+								<img src="https://cdn.coral.ru/content/press/press_maldives_newhotels_0.jpg" alt="card" class="additional__card-img" />
+								<div class="additional__hover"><button class="additional__hover-btn">Подробнее</button></div>
+							</div>
+							<div class="additional__data-block"><span class="additional__date">08.08.2022</span> <span class="additional__source">«Вестник АТОР»</span></div>
+							<h3 class="additional__card-title">Мальдивы в тренде: подборка новых отелей на островах</h3>
+						</a>
+						<a href="https://www.coral.ru/main/coral/press/spros-na-tury-v-postsovetskie-strany-vyros-na-80/" class="additional__card">
+							<div class="additional__img-wrapper">
+								<img src="https://cdn.coral.ru/content/press/637777461544295182(2).jpg" alt="card" class="additional__card-img" />
+								<div class="additional__hover"><button class="additional__hover-btn">Подробнее</button></div>
+							</div>
+							<div class="additional__data-block"><span class="additional__date">04.08.2022</span> <span class="additional__source">«Вестник АТОР»</span></div>
+							<h3 class="additional__card-title">Спрос на туры в постсоветские страны вырос на 80%</h3>
+						</a>
+						<a href="https://www.coral.ru/main/coral/press/nomera-v-dorogih-otelyah-turtsii-do-kontsa-leta-rasprodany-na-80/" class="additional__card">
+							<div class="additional__img-wrapper">
+								<img src="	https://cdn.coral.ru/content/press/images_cms-image-000023123(1)(1).jpg" alt="card" class="additional__card-img" />
+								<div class="additional__hover"><button class="additional__hover-btn">Подробнее</button></div>
+							</div>
+							<div class="additional__data-block"><span class="additional__date">02.08.2022</span> <span class="additional__source">ИНТЕРФАКС-ТУРИЗМ</span></div>
+							<h3 class="additional__card-title">Номера в дорогих отелях Турции до конца лета распроданы на 80%</h3>
+						</a>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>

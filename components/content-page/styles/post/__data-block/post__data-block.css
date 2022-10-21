@@ -1,0 +1,13 @@
+.post__data-block {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin: 0 0 32px 0;
+}
+@media screen and (max-width: 768px) {
+  .post__data-block {
+    margin: 0 0 16px 0;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+}

@@ -1,0 +1,40 @@
+.post__video__play-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 60px;
+	border: 3px solid #ffffff;
+	transition: 0.5s;
+	cursor: pointer;
+
+    @media screen and (max-width: 1006px) {
+        width: 68px;
+        height: 68px;
+    }
+
+	@media screen and (max-width: 768px) {
+		width: 34px;
+		height: 34px;
+	}
+
+	img {
+		transform: translateX(3px);
+
+        @media screen and (max-width: 1006px) {
+            width: 26px;
+            transform: translateX(2px);
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 14px;
+            transform: translateX(1px);
+        }
+	}
+
+	&:hover {
+		transition: 0.5s;
+		opacity: 0.7;
+	}
+}

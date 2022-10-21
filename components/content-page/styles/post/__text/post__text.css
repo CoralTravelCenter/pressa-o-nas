@@ -1,0 +1,32 @@
+.post__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0 0 60px 0;
+  color: #000;
+}
+.post__text p {
+  margin: 0 0 20px 0;
+}
+@media screen and (max-width: 768px) {
+  .post__text p {
+    margin: 0 0 10px 0;
+  }
+}
+.post__text p:last-of-type {
+  margin: 0;
+}
+.post__text a {
+  font-weight: 700;
+  color: #0093d0 !important;
+  text-decoration: none;
+  line-height: 1.2 !important;
+  font-size: inherit !important;
+}
+@media screen and (max-width: 768px) {
+  .post__text {
+    font-size: 12px;
+    margin: 0 0 30px 0;
+  }
+}

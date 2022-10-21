@@ -1,0 +1,33 @@
+.additional__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+  row-gap: 20px;
+}
+.additional__card:hover .additional__hover {
+  transition: 0.3s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.additional__card:hover .additional__card-title {
+  transition: 0.3s;
+  color: #0093d0;
+}
+@media screen and (max-width: 1006px) {
+  .additional__card:hover .additional__card-title {
+    color: #000;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .additional__card {
+    width: calc(50% - 12px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .additional__card {
+    row-gap: 10px;
+  }
+}

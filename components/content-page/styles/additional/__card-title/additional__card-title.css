@@ -1,0 +1,14 @@
+.additional__card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+  transition: 0.3s;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .additional__card-title {
+    font-size: 12px;
+  }
+}

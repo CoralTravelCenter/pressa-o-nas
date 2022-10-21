@@ -1,0 +1,46 @@
+.post__slider {
+	position: relative;
+	margin: 0 0 60px 0;
+
+	.swiper-wrapper {
+		height: auto !important;
+		margin: 0 0 24px 0;
+
+		@media screen and (max-width: 768px) {
+			margin: 0 0 12px 0;
+		}
+	}
+
+	.swiper-slide {
+		height: auto !important;
+		border-radius: 20px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 20px;
+			max-height: 60vh;
+		}
+	}
+
+	.swiper-pagination {
+		position: relative;
+		bottom: unset !important;
+	}
+
+	.swiper-pagination-bullet {
+		background: #d9d9d9 !important;
+		width: 12px !important;
+		height: 12px !important;
+		transition: 0.3s;
+
+		@media screen and (max-width: 768px) {
+			width: 6px !important;
+			height: 6px !important;
+		}
+	}
+
+	.swiper-pagination-bullet-active {
+		background: #888888 !important;
+	}
+}

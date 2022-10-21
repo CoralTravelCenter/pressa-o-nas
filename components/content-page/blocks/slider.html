@@ -1,0 +1,40 @@
+<!-- \/ слайдер с картинками \/ -->
+<!-- подключение стилей слайдера обязательно! -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<div class="post__slider">
+	<div class="swiper-wrapper">
+		<!-- каждый слайд состоит обязательно из обертки слайда и <img> внутри 
+			(слайдов может быть любое количество, но не стоит увлекаться т.к. слайдер грузит страницу.
+			Он рендерит на странице не только слайд а еще 2 его копии, для неразрывности слайдов.)
+		-->
+		<div class="swiper-slide">
+			<img src="./images/post__image.jpg" alt="" />
+		</div>
+		<div class="swiper-slide">
+			<img src="./images/post__image.jpg" alt="" />
+		</div>
+		<div class="swiper-slide">
+			<img src="./images/post__image.jpg" alt="" />
+		</div>
+	</div>
+	<div class="swiper-pagination">&nbsp;</div>
+</div>
+<!-- скрипты инициализации слайдера обязательны! -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper(".post__slider", {
+		direction: "horizontal",
+		loop: true, // можно включать и выключать режим повторения слайдов (true и false соответственно)
+		grabCursor: true, // можно включать и отключать курсор "хватающая рука" (true и false)
+		spaceBetween: 20, // можно регулировать пустое расстояние между слайдами (это значение в пикселях)
+		autoplay: {
+			delay: 5e3, // можно регулировать задержку автоплея (5e3 = 5 секунд, 1e3 = 1 секунда, 10e3 = 10 секунд и т.д.)
+		},
+		pagination: {
+			enabled: true, // можно включать и отключать точки под слайдером (true и false)
+			clickable: true,
+			el: ".swiper-pagination",
+		},
+	});
+</script>
+<!-- /\ слайдер с картинками /\ -->

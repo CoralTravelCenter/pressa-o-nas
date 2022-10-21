@@ -1,0 +1,37 @@
+@mixin h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #0e0e2c;
+
+	@media screen and (max-width: 768px) {
+		font-size: 16px;
+	}
+}
+
+@mixin benefits-description {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	color: #000000;
+
+	@media screen and (max-width: 1006px) {
+		font-size: 20px;
+	}
+
+	@media screen and (max-width: 768px) {
+		font-size: 10px;
+	}
+}
+
+@mixin tab-button {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.2;
+}

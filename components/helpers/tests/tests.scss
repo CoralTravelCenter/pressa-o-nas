@@ -1,0 +1,13 @@
+@import "./variables/variables.scss";
+@import "./variables/mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+	background: $light-grey;
+}

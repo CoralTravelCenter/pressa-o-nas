@@ -1,0 +1,13 @@
+.additional__date {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .additional__date {
+    font-size: 10px;
+  }
+}

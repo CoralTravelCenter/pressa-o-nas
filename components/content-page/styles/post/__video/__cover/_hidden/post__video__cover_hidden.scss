@@ -1,0 +1,27 @@
+.post__video__cover_hidden {
+	background: transparent;
+	backdrop-filter: none;
+	transition: 0.5s;
+
+	.post__video__play-btn {
+		border: 3px solid transparent;
+		border-radius: 60px;
+		transition: 0.5s;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.play-btn {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		transition: 0.5s;
+	}
+	.pause-btn {
+		visibility: visible;
+		opacity: 1;
+		position: relative;
+		transition: 0.5s;
+	}
+}

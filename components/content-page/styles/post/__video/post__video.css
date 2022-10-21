@@ -1,0 +1,12 @@
+.post__video {
+  margin: 0 0 60px 0;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .post__video {
+    margin: 0 0 30px 0;
+  }
+}
+.post__video iframe {
+  border-radius: 20px;
+}

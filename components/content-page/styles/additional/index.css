@@ -1,0 +1,10 @@
+.additional {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and (max-width: 1006px) {
+  .additional {
+    margin: 0 0 60px 0;
+  }
+}

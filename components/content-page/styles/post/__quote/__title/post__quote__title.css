@@ -1,0 +1,13 @@
+.post__quote__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .post__quote__title {
+    font-size: 10px;
+  }
+}

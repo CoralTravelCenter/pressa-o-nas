@@ -1,0 +1,38 @@
+h1 {
+  display: none !important;
+}
+
+.contentLayout-BaseContainer .notcritical {
+  padding-top: 0 !important;
+}
+
+.contentLayout-BaseContainer .notcritical .container {
+  padding: 0 !important;
+}
+
+.widgetcontainer.oti-content-typography {
+  margin: 0 !important;
+}
+
+.notcritical {
+  padding-top: 0 !important;
+}
+
+.breadcrumb-item {
+  color: #000 !important;
+}
+.breadcrumb-item::after {
+  background-color: #000 !important;
+}
+
+.background {
+  display: none !important;
+}
+
+.bcrumb .breadcrumb-item a {
+  color: #000 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #000 !important;
+}

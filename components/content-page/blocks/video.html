@@ -1,0 +1,42 @@
+<!-- \/ видео блок \/ -->
+<div class="post__video">
+	<!-- ссылка на видео вставляется в атрибут src -->
+	<iframe title="02.mp4" src="https://player.vimeo.com/video/738235917?h=b5f043a04c&amp;badge=0&amp;autopause=0&amp;background=1&amp;autoplay=0&amp;muted=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+	<div class="post__video__cover">
+		<div class="post__video__play-btn">
+			<img src="https://cdn.coral.ru/content/cms/russia/pressa/play-button.png" alt="" class="play-btn" />
+			<img src="https://cdn.coral.ru/content/cms/russia/pressa/pause-btn.png" alt="" class="pause-btn" />
+		</div>
+	</div>
+</div>
+<!-- скрипт подключения вимео обязателен! -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+<!-- скрипт настройки видео плеера не кастомизируется -->
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const videoContainer = document.querySelector(".post__video");
+		const video = videoContainer.querySelector("iframe");
+		const videoPlayer = new Vimeo.Player(video);
+		const videoContainerWidth = videoContainer.getBoundingClientRect().width;
+		const videoContainerHeight = videoContainerWidth / 1.75;
+		const playBtn = videoContainer.querySelector(".post__video__play-btn");
+		const videoCover = videoContainer.querySelector(".post__video__cover");
+		videoContainer.style.height = `${videoContainerHeight}px`;
+
+		video.style.height = "100%";
+		video.style.width = "100%";
+
+		playBtn.addEventListener("click", () => {
+			if (!videoCover.classList.contains("post__video__cover_hidden")) {
+				videoCover.classList.add("post__video__cover_hidden");
+				videoPlayer.play();
+				videoPlayer.muted = 0;
+			} else {
+				videoCover.classList.remove("post__video__cover_hidden");
+				videoPlayer.pause();
+				videoPlayer.muted = 1;
+			}
+		});
+	});
+</script>
+<!-- /\ видео блок /\ -->
